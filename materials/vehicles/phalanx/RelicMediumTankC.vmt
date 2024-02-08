@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "foxhole/vehicles/phalanx/RelicMediumTankC"
+	"$bumpmap" "foxhole/vehicles/phalanx/RelicMediumTankC_normal"
+	"$surfaceprop" "Metal"
+}

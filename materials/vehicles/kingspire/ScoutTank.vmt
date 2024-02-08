@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "foxhole/vehicles/kingspire/ScoutTank"
+	"$normalmap" "foxhole/vehicles/kingspire/ScoutTankN"
+	$surfaceprop "Metal"
+	$phongexponent 50
+	$phongboost 1.0
+	$basemapalphaphongmask true
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "foxhole/vehicles/hatchet/LightTankTreadCol"
+	"$normalmap" "foxhole/vehicles/hatchet/LightTankTreadColN"
+	"$surfaceprop" "Metal"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "foxhole/vehicles/kinggallant/KG_body"
+	"$normalmap" "foxhole/vehicles/kinggallant/KG_body_normal"
+	"$surfaceprop" "Metal"
+}

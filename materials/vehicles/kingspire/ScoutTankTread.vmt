@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "foxhole/vehicles/kingspire/ScoutTankTread"
+	"$normalmap" "foxhole/vehicles/kingspire/ScoutTankTreadN"
+	"$surfaceprop" "Metal"
+}

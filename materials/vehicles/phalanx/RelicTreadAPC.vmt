@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "foxhole/vehicles/phalanx/RelicTreadAPC"
+	"$bumpmap" "foxhole/vehicles/phalanx/RelicTreadAPC_normal"
+	"$surfaceprop" "Metal"
+}

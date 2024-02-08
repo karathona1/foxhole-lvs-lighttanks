@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "foxhole/vehicles/stormtank/RelicLightTank"
+	"$bumplmap" "foxhole/vehicles/stormtank/RelicLightTankN"
+	"$surfaceprop" "Metal"
+}

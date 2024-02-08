@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "foxhole/vehicles/kinggallant/KG_turret"
+	"$normalmap" "foxhole/vehicles/kinggallant/KG_turret_normal"
+	"$surfaceprop" "Metal"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "foxhole/vehicles/kinggallant/KG_treads"
+	"$normalmap" "foxhole/vehicles/kinggallant/KG_treads_normal"
+	"$surfaceprop" "Default"
+}
