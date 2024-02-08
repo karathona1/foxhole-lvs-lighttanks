@@ -23,11 +23,11 @@ ENT.SpawnNormalOffset = 40
 ENT.DSArmorIgnoreForce = 1200
 ENT.CannonArmorPenetration = 3900
 
-ENT.MaxVelocity = 400
+ENT.MaxVelocity = 360
 ENT.MaxVelocityReverse = 200
 
 ENT.EngineCurve = 0.2
-ENT.EngineTorque = 250
+ENT.EngineTorque = 300
 
 ENT.TransGears = 3
 ENT.TransGearsReverse = 1

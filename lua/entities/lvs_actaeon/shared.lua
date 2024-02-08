@@ -22,11 +22,11 @@ ENT.MaxHealth = 1150
 ENT.DSArmorIgnoreForce = 1202
 ENT.CannonArmorPenetration = 3900
 
-ENT.MaxVelocity = 300
+ENT.MaxVelocity = 240
 ENT.MaxVelocityReverse = 175
 
 ENT.EngineCurve = 0.01
-ENT.EngineTorque = 325
+ENT.EngineTorque = 400
 
 ENT.TransGears = 3
 ENT.TransGearsReverse = 1
