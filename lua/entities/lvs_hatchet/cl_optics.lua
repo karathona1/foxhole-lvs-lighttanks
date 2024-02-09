@@ -1,5 +1,5 @@
 
-ENT.OpticsFov = 25
+ENT.OpticsFov = 35
 ENT.OpticsEnable = true
 ENT.OpticsZoomOnly = true
 ENT.OpticsFirstPerson = true
