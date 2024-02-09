@@ -3,10 +3,10 @@ ENT.Base = "lvs_tank_wheeldrive"
 ENT.PrintName = "H-5 Hatchet"
 ENT.Author = "Kalamari"
 ENT.Information = "Kalamari's Foxhole Vehicles"
-ENT.Category = "[LVS] - Cars"
+ENT.Category = "[LVS] - Foxhole"
 
-ENT.VehicleCategory = "Tanks"
-ENT.VehicleSubCategory = "Foxhole"
+ENT.VehicleCategory = "Foxhole"
+ENT.VehicleSubCategory = "Light Tank"
 
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false
