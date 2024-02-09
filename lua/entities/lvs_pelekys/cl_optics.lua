@@ -1,5 +1,5 @@
 
-ENT.OpticsFov = 35
+ENT.OpticsFov = 15
 ENT.OpticsEnable = true
 ENT.OpticsZoomOnly = true
 ENT.OpticsFirstPerson = true
@@ -23,7 +23,7 @@ function ENT:PaintOptics( Pos2D, Col, PodIndex, Type )
 	surface.SetDrawColor( 0, 0, 0, 150 )
 	surface.DrawTexturedRect( Pos2D.x - 210, Pos2D.y - 23, 420, 420 )
 
-	self:DrawRotatedText( "AP 40mm", Pos2D.x + 35, Pos2D.y + 10, "LVS_FONT_PANEL", Color(0,0,0,220), 0)
+	self:DrawRotatedText( "AP 68mm", Pos2D.x + 35, Pos2D.y + 10, "LVS_FONT_PANEL", Color(0,0,0,220), 0)
 
 	local diameter = ScrH()
 	local radius = diameter * 0.5
