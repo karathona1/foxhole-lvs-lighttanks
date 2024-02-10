@@ -3,10 +3,10 @@ ENT.Base = "lvs_tank_wheeldrive"
 ENT.PrintName = "H-5 Hatchet"
 ENT.Author = "Kalamari"
 ENT.Information = "Kalamari's Foxhole Vehicles"
-ENT.Category = "[LVS] - Cars"
+ENT.Category = "[LVS] - Foxhole"
 
-ENT.VehicleCategory = "Tanks"
-ENT.VehicleSubCategory = "Foxhole"
+ENT.VehicleCategory = "Foxhole"
+ENT.VehicleSubCategory = "Light Tank"
 
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false
@@ -23,11 +23,11 @@ ENT.SpawnNormalOffset = 40
 ENT.DSArmorIgnoreForce = 1200
 ENT.CannonArmorPenetration = 3900
 
-ENT.MaxVelocity = 400
+ENT.MaxVelocity = 360
 ENT.MaxVelocityReverse = 200
 
 ENT.EngineCurve = 0.2
-ENT.EngineTorque = 250
+ENT.EngineTorque = 300
 
 ENT.TransGears = 3
 ENT.TransGearsReverse = 1
