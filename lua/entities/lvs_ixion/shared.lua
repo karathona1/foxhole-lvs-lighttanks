@@ -4,10 +4,10 @@ ENT.Base = "lvs_tank_wheeldrive"
 ENT.PrintName = "T20 Ixion"
 ENT.Author = "Kalamari"
 ENT.Information = "Kalamari's Foxhole Vehicles"
-ENT.Category = "[LVS] - Cars"
+ENT.Category = "[LVS] - Foxhole"
 
-ENT.VehicleCategory = "Tanks"
-ENT.VehicleSubCategory = "Foxhole"
+ENT.VehicleCategory = "Foxhole"
+ENT.VehicleSubCategory = "Tankette"
 
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false
@@ -22,13 +22,13 @@ ENT.MaxHealth = 1350
 ENT.DSArmorIgnoreForce = 1202
 ENT.CannonArmorPenetration = 3900
 
-ENT.MaxVelocity = 250
+ENT.MaxVelocity = 220
 ENT.MaxVelocityReverse = 150
 
 ENT.ForceAngleMultiplier = 0.5
 
 ENT.EngineCurve = 0.01
-ENT.EngineTorque = 325
+ENT.EngineTorque = 400
 
 ENT.TransMinGearHoldTime = 0.1
 ENT.TransShiftSpeed = 0
