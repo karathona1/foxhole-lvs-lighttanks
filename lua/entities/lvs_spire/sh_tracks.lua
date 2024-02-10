@@ -130,26 +130,26 @@ else
 	ENT.TrackPoseParameterRight = "spin_wheels_right"
 	ENT.TrackPoseParameterRightMul =  -1
 
-	ENT.TrackSounds = "lvs/vehicles/sherman/tracks_loop.wav"
-	ENT.TrackHull = Vector(20,20,20)
-	ENT.TrackData = {}
-	for i = 1, 5 do
-		for n = 0, 1 do
-			local LR = n == 0 and "l" or "r"
-			local LeftRight = n == 0 and "left" or "right"
-			local data = {
-				Attachment = {
-					name = "vehicle_wheel_"..LR.."_"..i,
-					toGroundDistance = 14,
-					traceLength = 100,
-				},
-				PoseParameter = {
-					name = "suspension_"..LeftRight.."_"..i,
-					rangeMultiplier = -1,
-					lerpSpeed = 25,
-				}
-			}
-			table.insert( ENT.TrackData, data )
-		end
-	end
+	-- ENT.TrackSounds = "lvs/vehicles/sherman/tracks_loop.wav"
+	-- ENT.TrackHull = Vector(20,20,20)
+	-- ENT.TrackData = {}
+	-- for i = 1, 5 do
+	-- 	for n = 0, 1 do
+	-- 		local LR = n == 0 and "l" or "r"
+	-- 		local LeftRight = n == 0 and "left" or "right"
+	-- 		local data = {
+	-- 			Attachment = {
+	-- 				name = "vehicle_wheel_"..LR.."_"..i,
+	-- 				toGroundDistance = 14,
+	-- 				traceLength = 100,
+	-- 			},
+	-- 			PoseParameter = {
+	-- 				name = "suspension_"..LeftRight.."_"..i,
+	-- 				rangeMultiplier = -1,
+	-- 				lerpSpeed = 25,
+	-- 			}
+	-- 		}
+	-- 		table.insert( ENT.TrackData, data )
+	-- 	end
+	-- end
 end
