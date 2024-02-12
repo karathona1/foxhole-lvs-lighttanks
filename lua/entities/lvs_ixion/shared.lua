@@ -132,14 +132,14 @@ function ENT:InitWeapons()
 		bullet.Dir 	= -Muzzle.Ang:Forward()
 		bullet.Spread 	= Vector(0.005,0.005,0.005)
 		bullet.TracerName = "lvs_tracer_autocannon"
-		bullet.Force	= 3000
+		bullet.Force	= 2500
 		bullet.HullSize = 5
 		bullet.Damage	= 400
 		bullet.SplashDamage = 100
-		bullet.SplashDamageRadius = 52
+		bullet.SplashDamageRadius = 250
 		bullet.SplashDamageEffect = "lvs_bullet_impact_explosive"
 		bullet.SplashDamageType = DMG_BLAST
-		bullet.Velocity = 30000
+		bullet.Velocity = 10000
 		bullet.Attacker = ent:GetDriver()
 		ent:LVSFireBullet( bullet )
 

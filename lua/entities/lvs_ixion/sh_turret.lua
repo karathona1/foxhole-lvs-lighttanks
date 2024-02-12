@@ -3,7 +3,7 @@ include("entities/lvs_tank_wheeldrive/modules/sh_turret.lua")
 
 ENT.TurretAimRate = 30
 
-ENT.TurretRotationSound = "common/null.wav"
+ENT.TurretRotationSound = "vehicles/tank_turret_loop1.wav"
 
 ENT.TurretPitchPoseParameterName = "gun_pitch"
 ENT.TurretPitchMin = -25

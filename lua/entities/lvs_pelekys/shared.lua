@@ -135,7 +135,7 @@ function ENT:InitWeapons()
 		bullet.SplashDamageRadius = 75
 		bullet.SplashDamageEffect = "lvs_bullet_impact_explosive"
 		bullet.SplashDamageType = DMG_BLAST
-		bullet.Velocity = 32000
+		bullet.Velocity = 18000
 		bullet.Attacker = ent:GetDriver()
 		ent:LVSFireBullet( bullet )
 

@@ -27,20 +27,20 @@ function ENT:OnSpawn( PObj )
 	self:AddFuelTank( Vector(-82,0,71), Angle(0,0,0), 800, LVS.FUELTYPE_PETROL )
 
 	//FRONT ARMOR
-	self:AddArmor( Vector(80,0,40), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,45), 800, self.FrontArmor )
+	self:AddArmor( Vector(120,0,40), Angle( 0,0,0 ), Vector(-20,-55,-25), Vector(20,55,50), 2400, self.FrontArmor )
 
 	//LEFT ARMOR
-	self:AddArmor( Vector(15,45,65), Angle( 0,0,0 ), Vector(-100,-10,-10), Vector(60,10,20), 300, self.SideArmor )
+	self:AddArmor( Vector(15,45,65), Angle( 0,0,0 ), Vector(-120,-10,-10), Vector(80,10,40), 1600, self.SideArmor )
 
 	//RIGHT ARMOR
-	self:AddArmor( Vector(15,-45,65), Angle( 0,0,0 ), Vector(-100,-10,-10), Vector(60,10,20), 300, self.SideArmor )
+	self:AddArmor( Vector(15,-45,65), Angle( 0,0,0 ), Vector(-120,-10,-10), Vector(80,10,40), 1600, self.SideArmor )
 
 	//BACK ARMOR
-	self:AddArmor( Vector(-85,0,65), Angle( 75,0,0 ), Vector(-10,-45,-15), Vector(10,45,50), 200, self.BackArmor )
+	self:AddArmor( Vector(-130,0,60), Angle( 0,0,0 ), Vector(-10,-55,-25), Vector(20,55,45), 1000, self.BackArmor )
 
 
 	//TURRET ARMOR
-	local TurretArmor = self:AddArmor( Vector(20,0,85), Angle(0,0,0), Vector(-35,-35,0), Vector(35,35,35), 800, self.TurretArmor )
+	local TurretArmor = self:AddArmor( Vector(42,0,85), Angle(0,0,0), Vector(-45,-45,0), Vector(45,45,45), 2600, self.TurretArmor )
 	TurretArmor.OnDestroyed = function( ent, dmginfo ) if not IsValid( self ) then return end self:SetTurretDestroyed( true ) end
 	TurretArmor.OnRepaired = function( ent ) if not IsValid( self ) then return end self:SetTurretDestroyed( false ) end
 	TurretArmor:SetLabel( "Turret" )

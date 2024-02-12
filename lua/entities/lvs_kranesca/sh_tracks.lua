@@ -23,12 +23,12 @@ if SERVER then
 		local RightWheelChain = self:CreateWheelChain( { R1, R2, R3, R4, R5 } )
 		self:SetTrackDriveWheelRight( R2 )
 
-		local LeftTracksArmor = self:AddArmor( Vector(10,42,54), Angle(0,0,0), Vector(-115,-10,-55), Vector(80,10,0), 300, self.FrontArmor )
+		local LeftTracksArmor = self:AddArmor( Vector(10,42,54), Angle(0,0,0), Vector(-115,-10,-55), Vector(80,10,0), 1000, self.FrontArmor )
 		LeftTracksArmor.OnDestroyed = LeftWheelChain.OnDestroyed
 		LeftTracksArmor.OnRepaired = LeftWheelChain.OnRepaired
 		LeftTracksArmor:SetLabel( "Tracks" )
 
-		local RightTracksArmor = self:AddArmor( Vector(10,-42,54), Angle(0,0,0), Vector(-115,-10,-55), Vector(80,10,0), 300, self.FrontArmor )
+		local RightTracksArmor = self:AddArmor( Vector(10,-42,54), Angle(0,0,0), Vector(-115,-10,-55), Vector(80,10,0), 1000, self.FrontArmor )
 		RightTracksArmor.OnDestroyed = RightWheelChain.OnDestroyed
 		RightTracksArmor.OnRepaired = RightWheelChain.OnRepaired
 		RightTracksArmor:SetLabel( "Tracks" )
@@ -37,7 +37,7 @@ if SERVER then
 			Axle = {
 				ForwardAngle = Angle(0,0,0),
 				SteerType = LVS.WHEEL_STEER_FRONT,
-				SteerAngle = 10,
+				SteerAngle = 7.5,
 				TorqueFactor = 0,
 				BrakeFactor = 1,
 				UseHandbrake = true,
@@ -76,7 +76,7 @@ if SERVER then
 			Axle = {
 				ForwardAngle = Angle(0,0,0),
 				SteerType = LVS.WHEEL_STEER_REAR,
-				SteerAngle = 10,
+				SteerAngle = 7.5,
 				TorqueFactor = 0,
 				BrakeFactor = 1,
 				UseHandbrake = true,

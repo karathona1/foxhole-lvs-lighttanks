@@ -36,16 +36,17 @@ function ENT:OnSpawn( PObj )
     -- end
 
 	//FRONT ARMOR
-	self:AddArmor( Vector(40,0,35), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,50), 600, self.FrontArmor )
+	self:AddArmor( Vector(30,0,35), Angle( 0,0,0 ), Vector(-10,-35,15), Vector(10,35,45), 1000, self.FrontArmor )
+	self:AddArmor( Vector(60,0,45), Angle( 0,0,0 ), Vector(-20,-35,-15), Vector(20,35,10), 1000, self.FrontArmor )
 
 	//LEFT ARMOR
-	self:AddArmor( Vector(-30,35,35), Angle( 0,0,0 ), Vector(-40,-10,-15), Vector(60,10,50), 400, self.SideArmor )
+	self:AddArmor( Vector(-30,35,35), Angle( 0,0,0 ), Vector(-40,-10,15), Vector(60,10,45), 800, self.SideArmor )
 
-	//Right ARMOR
-	self:AddArmor( Vector(-30,-35,35), Angle( 0,0,0 ), Vector(-40,-10,-15), Vector(60,10,50), 400, self.SideArmor )
+	//RIGHT ARMOR
+	self:AddArmor( Vector(-30,-35,35), Angle( 0,0,0 ), Vector(-40,-10,15), Vector(60,10,45), 800, self.SideArmor )
 
-	//FRONT ARMOR
-	self:AddArmor( Vector(-75,0,35), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,50), 250, self.BackArmor )
+	//BACK ARMOR
+	self:AddArmor( Vector(-75,0,35), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,45), 400, self.BackArmor )
 
 	self:AddEngine( Vector(52,0,52), Angle(0,-90,0) )
 	self:AddFuelTank( Vector(-84,0,32), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )

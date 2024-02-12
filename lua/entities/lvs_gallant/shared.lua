@@ -23,7 +23,7 @@ ENT.SpawnNormalOffset = 40
 ENT.DSArmorIgnoreForce = 1200
 ENT.CannonArmorPenetration = 3900
 
-ENT.MaxVelocity = 300
+ENT.MaxVelocity = 280
 ENT.MaxVelocityReverse = 200
 
 ENT.EngineCurve = 0.2
@@ -115,14 +115,14 @@ function ENT:InitWeapons()
 		bullet.Dir 	= -Muzzle.Ang:Forward()
 		bullet.Spread 	= Vector(0.005,0.005,0.005)
 		bullet.TracerName = "lvs_tracer_autocannon"
-		bullet.Force	= 3000
+		bullet.Force	= 2500
 		bullet.HullSize = 5
 		bullet.Damage	= 400
 		bullet.SplashDamage = 100
-		bullet.SplashDamageRadius = 52
+		bullet.SplashDamageRadius = 250
 		bullet.SplashDamageEffect = "lvs_bullet_impact_explosive"
 		bullet.SplashDamageType = DMG_BLAST
-		bullet.Velocity = 30000
+		bullet.Velocity = 10000
 		bullet.Attacker = ent:GetDriver()
 		ent:LVSFireBullet( bullet )
 
@@ -193,11 +193,11 @@ end
 
 ENT.ExhaustPositions = {
 	{
-		pos = Vector(-72.52,26.66,76.54),
-		ang = Angle(-90,0,0),
+		pos = Vector(-89.45,23.73,44.55),
+		ang = Angle(180,0,0),
 	},
 	{
-		pos = Vector(-72.52,-26.66,76.54),
-		ang = Angle(-90,0,0),
+		pos = Vector(-89.45,-23.73,44.55),
+		ang = Angle(180,0,0),
 	},
 }
