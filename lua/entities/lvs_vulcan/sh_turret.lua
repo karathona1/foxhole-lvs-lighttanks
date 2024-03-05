@@ -12,5 +12,5 @@ ENT.TurretPitchMul = 1
 ENT.TurretPitchOffset = 0
 
 ENT.TurretYawPoseParameterName = "turret_yaw"
-ENT.TurretYawMul = -2
+ENT.TurretYawMul = -1
 ENT.TurretYawOffset = 0
