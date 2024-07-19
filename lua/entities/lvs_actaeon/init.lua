@@ -36,6 +36,7 @@ function ENT:OnSpawn( PObj )
     -- end
 
 	//FRONT ARMOR
+<<<<<<< HEAD
 	self:AddArmor( Vector(30,0,35), Angle( 0,0,0 ), Vector(-10,-35,15), Vector(10,35,45), 800, self.FrontArmor )
 	self:AddArmor( Vector(60,0,45), Angle( 0,0,0 ), Vector(-20,-35,-15), Vector(20,35,10), 800, self.FrontArmor )
 
@@ -44,6 +45,16 @@ function ENT:OnSpawn( PObj )
 
 	//RIGHT ARMOR
 	self:AddArmor( Vector(-30,-35,35), Angle( 0,0,0 ), Vector(-40,-10,15), Vector(60,10,45), 600, self.SideArmor )
+=======
+	self:AddArmor( Vector(30,0,35), Angle( 0,0,0 ), Vector(-10,-35,15), Vector(10,35,45), 1000, self.FrontArmor )
+	self:AddArmor( Vector(60,0,45), Angle( 0,0,0 ), Vector(-20,-35,-15), Vector(20,35,10), 1000, self.FrontArmor )
+
+	//LEFT ARMOR
+	self:AddArmor( Vector(-30,35,35), Angle( 0,0,0 ), Vector(-40,-10,15), Vector(60,10,45), 800, self.SideArmor )
+
+	//RIGHT ARMOR
+	self:AddArmor( Vector(-30,-35,35), Angle( 0,0,0 ), Vector(-40,-10,15), Vector(60,10,45), 800, self.SideArmor )
+>>>>>>> parent of 69417dd (moved scout tanks and tankettes, updated armor values)
 
 	//BACK ARMOR
 	self:AddArmor( Vector(-75,0,35), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,45), 400, self.BackArmor )

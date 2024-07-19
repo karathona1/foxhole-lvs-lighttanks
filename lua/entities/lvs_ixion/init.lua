@@ -23,6 +23,7 @@ function ENT:OnSpawn( PObj )
 	self.SNDTurret:SetParent( self, ID )
 
 	//FRONT ARMOR
+<<<<<<< HEAD
 	self:AddArmor( Vector(30,0,35), Angle( 0,0,0 ), Vector(-10,-35,15), Vector(10,35,55), 900, self.FrontArmor )
 	self:AddArmor( Vector(60,0,45), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,10), 900, self.FrontArmor )
 
@@ -34,6 +35,19 @@ function ENT:OnSpawn( PObj )
 
 	//BACK ARMOR
 	self:AddArmor( Vector(-75,0,35), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,45), 400, self.BackArmor )
+=======
+	self:AddArmor( Vector(30,0,35), Angle( 0,0,0 ), Vector(-10,-35,15), Vector(10,35,55), 1200, self.FrontArmor )
+	self:AddArmor( Vector(60,0,45), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,10), 1200, self.FrontArmor )
+
+	//LEFT ARMOR
+	self:AddArmor( Vector(-30,35,35), Angle( 0,0,0 ), Vector(-40,-10,-15), Vector(60,10,55), 900, self.SideArmor )
+
+	//RIGHT ARMOR
+	self:AddArmor( Vector(-30,-35,35), Angle( 0,0,0 ), Vector(-40,-10,-15), Vector(60,10,55), 900, self.SideArmor )
+
+	//BACK ARMOR
+	self:AddArmor( Vector(-75,0,35), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,45), 600, self.BackArmor )
+>>>>>>> parent of 69417dd (moved scout tanks and tankettes, updated armor values)
 
 	self:AddEngine( Vector(52,0,52), Angle(0,-90,0) )
 	self:AddFuelTank( Vector(-84,0,32), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )

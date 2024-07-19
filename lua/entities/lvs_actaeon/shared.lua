@@ -7,7 +7,11 @@ ENT.Information = "Kalamari's Foxhole Vehicles"
 ENT.Category = "[LVS] - Foxhole"
 
 ENT.VehicleCategory = "Foxhole"
+<<<<<<< HEAD
 ENT.VehicleSubCategory = "Scout Tank"
+=======
+ENT.VehicleSubCategory = "Tankette"
+>>>>>>> parent of 69417dd (moved scout tanks and tankettes, updated armor values)
 
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false
@@ -111,7 +115,11 @@ function ENT:InitWeapons()
 
 	//MACHINEGUN
 	local weapon = {}
+<<<<<<< HEAD
 	weapon.Icon = Material("lvs/weapons/mg.png")
+=======
+	weapon.Icon = Material("lvs/weapons/127mm.png")
+>>>>>>> parent of 69417dd (moved scout tanks and tankettes, updated armor values)
 	weapon.Ammo = 750
 	weapon.Delay = 0.1
 	weapon.HeatRateUp = 0.15

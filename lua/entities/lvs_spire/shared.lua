@@ -96,7 +96,11 @@ function ENT:InitWeapons()
 
 	//MACHINEGUN
 	local weapon = {}
+<<<<<<< HEAD
 	weapon.Icon = Material("lvs/weapons/mg.png")
+=======
+	weapon.Icon = Material("lvs/weapons/127mm.png")
+>>>>>>> parent of 69417dd (moved scout tanks and tankettes, updated armor values)
 	weapon.Ammo = 1250
 	weapon.Delay = 0.1
 	weapon.HeatRateUp = 0.15

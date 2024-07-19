@@ -27,6 +27,8 @@ function ENT:OnSpawn( PObj )
 	self:AddFuelTank( Vector(-82,0,71), Angle(0,0,0), 800, LVS.FUELTYPE_PETROL )
 
 	//FRONT ARMOR
+<<<<<<< HEAD
+<<<<<<<< HEAD:lua/entities/lvs_gallant/init.lua
 	self:AddArmor( Vector(73,0,40), Angle( -25,0,0 ), Vector(-10,-35,-15), Vector(10,35,38), 800, self.FrontArmor )
 
 	//LEFT ARMOR
@@ -34,9 +36,30 @@ function ENT:OnSpawn( PObj )
 
 	//RIGHT ARMOR
 	self:AddArmor( Vector(0,-35,65), Angle( 0,0,0 ), Vector(-70,-5,-10), Vector(50,5,10), 600, self.SideArmor )
+========
+	self:AddArmor( Vector(80,0,40), Angle( -25,0,0 ), Vector(-10,-30,-15), Vector(10,30,38), 1300, self.FrontArmor )
+
+	//LEFT ARMOR
+	self:AddArmor( Vector(15,35,35), Angle( 0,0,0 ), Vector(-70,-5,-15), Vector(40,5,40), 900, self.SideArmor )
+
+	//RIGHT ARMOR
+	self:AddArmor( Vector(15,-35,35), Angle( 0,0,0 ), Vector(-70,-5,-15), Vector(40,5,40), 900, self.SideArmor )
+>>>>>>>> parent of 69417dd (moved scout tanks and tankettes, updated armor values):lua/entities/lvs_kranesca/init.lua
 
 	//BACK ARMOR
 	self:AddArmor( Vector(-85,0,48), Angle( 0,0,0 ), Vector(-7,-30,-20), Vector(7,30,20), 400, self.BackArmor )
+=======
+	self:AddArmor( Vector(73,0,40), Angle( -25,0,0 ), Vector(-10,-35,-15), Vector(10,35,38), 900, self.FrontArmor )
+
+	//LEFT ARMOR
+	self:AddArmor( Vector(0,35,65), Angle( 0,0,0 ), Vector(-70,-5,-10), Vector(50,5,10), 800, self.SideArmor )
+
+	//RIGHT ARMOR
+	self:AddArmor( Vector(0,-35,65), Angle( 0,0,0 ), Vector(-70,-5,-10), Vector(50,5,10), 800, self.SideArmor )
+
+	//BACK ARMOR
+	self:AddArmor( Vector(-85,0,48), Angle( 0,0,0 ), Vector(-7,-30,-20), Vector(7,30,20), 600, self.BackArmor )
+>>>>>>> parent of 69417dd (moved scout tanks and tankettes, updated armor values)
 
 
 	//TURRET ARMOR

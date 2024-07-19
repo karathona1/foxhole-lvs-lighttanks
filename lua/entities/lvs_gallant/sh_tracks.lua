@@ -95,9 +95,15 @@ if SERVER then
 else
 	ENT.TrackSystemEnable = true
 
+<<<<<<< HEAD
 	ENT.TrackScrollTexture = "vehicles/kingspire/ScoutTankTread"
 	ENT.ScrollTextureData = {
 		["$bumpmap"] = "vehicles/kingspire/ScoutTankTreadN",
+=======
+	ENT.TrackScrollTexture = "vehicles/spire/ScoutTankTread"
+	ENT.ScrollTextureData = {
+		["$bumpmap"] = "vehicles/spire/ScoutTankTreadN",
+>>>>>>> parent of 69417dd (moved scout tanks and tankettes, updated armor values)
 		["$color2"] = "[1.5 1.5 1.5]",
 		["$phong"] = "1",
 		["$phongboost"] = "1",
