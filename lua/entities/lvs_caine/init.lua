@@ -29,7 +29,7 @@ function ENT:OnSpawn( PObj )
 	self:AddFuelTank( Vector(-82,0,71), Angle(0,0,0), 800, LVS.FUELTYPE_PETROL )
 
 	//FRONT ARMOR
-	self:AddArmor( Vector(80,0,40), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,45), 1200, self.FrontArmor )
+	self:AddArmor( Vector(80,0,40), Angle( 0,0,0 ), Vector(-10,-35,-15), Vector(10,35,45), 1000, self.FrontArmor )
 
 	//LEFT ARMOR
 	self:AddArmor( Vector(15,45,65), Angle( 0,0,0 ), Vector(-100,-10,-10), Vector(60,10,20), 800, self.SideArmor )

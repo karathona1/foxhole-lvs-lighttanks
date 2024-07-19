@@ -27,16 +27,16 @@ function ENT:OnSpawn( PObj )
 	self:AddFuelTank( Vector(-82,0,71), Angle(0,0,0), 800, LVS.FUELTYPE_PETROL )
 
 	//FRONT ARMOR
-	self:AddArmor( Vector(120,0,40), Angle( 0,0,0 ), Vector(-20,-55,-25), Vector(20,55,50), 2400, self.FrontArmor )
+	self:AddArmor( Vector(120,0,40), Angle( 0,0,0 ), Vector(-20,-55,-25), Vector(20,55,50), 1200, self.FrontArmor )
 
 	//LEFT ARMOR
-	self:AddArmor( Vector(15,45,65), Angle( 0,0,0 ), Vector(-120,-10,-10), Vector(80,10,40), 1600, self.SideArmor )
+	self:AddArmor( Vector(15,45,65), Angle( 0,0,0 ), Vector(-120,-10,-10), Vector(80,10,40), 1000, self.SideArmor )
 
 	//RIGHT ARMOR
-	self:AddArmor( Vector(15,-45,65), Angle( 0,0,0 ), Vector(-120,-10,-10), Vector(80,10,40), 1600, self.SideArmor )
+	self:AddArmor( Vector(15,-45,65), Angle( 0,0,0 ), Vector(-120,-10,-10), Vector(80,10,40), 1000, self.SideArmor )
 
 	//BACK ARMOR
-	self:AddArmor( Vector(-130,0,60), Angle( 0,0,0 ), Vector(-10,-55,-25), Vector(20,55,45), 1000, self.BackArmor )
+	self:AddArmor( Vector(-130,0,60), Angle( 0,0,0 ), Vector(-10,-55,-25), Vector(20,55,45), 900, self.BackArmor )
 
 
 	//TURRET ARMOR
