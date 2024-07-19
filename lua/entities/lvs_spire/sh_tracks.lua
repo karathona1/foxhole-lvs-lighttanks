@@ -95,9 +95,9 @@ if SERVER then
 else
 	ENT.TrackSystemEnable = true
 
-	ENT.TrackScrollTexture = "vehicles/spire/ScoutTankTread"
+	ENT.TrackScrollTexture = "vehicles/kingspire/ScoutTankTread"
 	ENT.ScrollTextureData = {
-		["$bumpmap"] = "vehicles/spire/ScoutTankTreadN",
+		["$bumpmap"] = "vehicles/kingspire/ScoutTankTreadN",
 		["$color2"] = "[1.5 1.5 1.5]",
 		["$phong"] = "1",
 		["$phongboost"] = "1",

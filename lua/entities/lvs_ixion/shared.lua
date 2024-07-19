@@ -7,7 +7,7 @@ ENT.Information = "Kalamari's Foxhole Vehicles"
 ENT.Category = "[LVS] - Foxhole"
 
 ENT.VehicleCategory = "Foxhole"
-ENT.VehicleSubCategory = "Tankette"
+ENT.VehicleSubCategory = "Scout Tank"
 
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false

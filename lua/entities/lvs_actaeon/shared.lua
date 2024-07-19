@@ -7,7 +7,7 @@ ENT.Information = "Kalamari's Foxhole Vehicles"
 ENT.Category = "[LVS] - Foxhole"
 
 ENT.VehicleCategory = "Foxhole"
-ENT.VehicleSubCategory = "Tankette"
+ENT.VehicleSubCategory = "Scout Tank"
 
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false
@@ -111,7 +111,7 @@ function ENT:InitWeapons()
 
 	//MACHINEGUN
 	local weapon = {}
-	weapon.Icon = Material("lvs/weapons/127mm.png")
+	weapon.Icon = Material("lvs/weapons/mg.png")
 	weapon.Ammo = 750
 	weapon.Delay = 0.1
 	weapon.HeatRateUp = 0.15
