@@ -97,7 +97,7 @@ function ENT:InitWeapons()
 
 	//CANNON
 	local weapon = {}
-	weapon.Icon = Material("lvs/weapons/bullet_ap.png")
+	weapon.Icon = Material("lvs/weapons/40mm.png")
 	weapon.Ammo = 40
 	weapon.Delay = 5.5
 	weapon.HeatRateUp = 1
@@ -174,7 +174,7 @@ function ENT:InitWeapons()
 
 	//NOTHING
 	local weapon = {}
-	weapon.Icon = Material("lvs/weapons/tank_noturret.png")
+	weapon.Icon = Material("lvs/weapons/cross.png")
 	weapon.Ammo = -1
 	weapon.Delay = 0
 	weapon.HeatRateUp = 0
