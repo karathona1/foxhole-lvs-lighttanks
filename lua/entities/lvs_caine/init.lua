@@ -124,3 +124,8 @@ function ENT:FireProjectile()
 
 	self:EmitSound("vehicles/MortarReload.wav", 100, 100, 1, CHAN_WEAPON )
 end
+
+-- set material on death
+function ENT:OnDestroyed()
+	self:SetMaterial("props/metal_damaged")
+end
